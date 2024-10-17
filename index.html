@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+     rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Restaurant Website</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav_header">
+                <div class="nav_logo">
+                    <a href="#">
+                        <img 
+                         src="assets/logo.png" 
+                         alt="logo" 
+                         class="nav_logo-dark" 
+                        />
+                        <img 
+                         src="assets/logo.png" 
+                         alt="logo" 
+                         class="nav_logo-white" 
+                        />
+                    </a>
+                </div>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>  
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#special">Special</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>
+        <div class="section_container header_container" id="home">
+            <div class="header_image">
+                <img src="assets/73.png" alt="header">
+            </div>
+            <div class="header_content">
+                <h2>IT IS GOOD TIME FOR THE GREATE TASTE OF AFRICAN DISH</h2>
+                <h1>GAMBIAN<br /><span>WEEK</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="section_container banner_container" id="special">
+        <div class="banner_card">
+            <p>TRY IT OUT TODAY</p>
+            <h4>MOST POPULAR DISH</h4>
+        </div>
+        <div class="banner_card">
+            <p>TRY IT OUT TODAY</p>
+            <h4>MORE FUN <br />MORE TASTE</h4>
+        </div>
+        <div class="banner_card">
+            <p>TRY IT OUT TODAY</p>
+            <h4>FRESH & CHILI</h4>
+        </div>
+    </section>
+
+    <section class="section_container order_container" id="menu">
+        <h3>ALWAYS TASTEY DISH</h3>
+        <h2 class="section_header">CHOOSE & ENJOY</h2>
+        <p class="section_description">
+            Whether you crave clasic flavors or more adventurous tastes,
+            we have the perfect dish for you.
+            Indulge in our delicious menu items,create your own custom flavors.
+        </p>
+        <div class="order_grid">
+            <div class="orde_card">
+                <img src="assets/4.png" alt="order">
+                <h4>FUFU</h4>
+                <p>Fufu, Soup, and a drink</p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="orde_card">
+                <img src="assets/8.png" alt="order">
+                <h4>BEEF</h4>
+                <p>Rice, salad, and a drink</p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="orde_card">
+                <img src="assets/7.png" alt="order">
+                <h4>BEEF</h4>
+                <p>Beef, salad, and a drink</p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="orde_card">
+                <img src="assets/3.png" alt="order">
+                <h4>FUFU</h4>
+                <p>Fufu, Soup, and a drink</p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="orde_card">
+                <img src="assets/72.png" alt="order">
+                <h4>BEEF</h4>
+                <p>Rice, salad, and a drink</p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="orde_card">
+                <img src="assets/16.png" alt="order">
+                <h4>BEEF</h4>
+                <p>Beef, salad, and a drink</p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container event_container" id="event">
+        <div class="event_content">
+            <div class="event_image">
+                <img src="assets/11.png" alt="event" />
+                <img src="assets/12.png" alt="event" />
+            </div>
+            <div class="event_details">
+                <h3>Discover</h3>
+                <h2 class="section_header">UPCOMING EVENTS</h2>
+                <p class="section_description">
+                    Join us for our weekly events and savor the best of our 
+                    delicious dishes and drinks! Indulge in a culinary journey
+                     with our signature African dishes such as Jollof Rice, a flavorful
+                      and spicy rice dish popular in West Africa, and Bobotie,
+                       a South African favorite made with spiced minced meat baked
+                        with an egg-based topping. Don't miss out on our aromatic
+                         Ethiopian Doro Wat, a spicy chicken stew, and the hearty
+                          Moroccan Tagine, a slow-cooked stew braised at low 
+                          temperatures. Pair these with our refreshing African-inspired
+                           drinks, and let every bite and sip take you on an unforgettable 
+                           gastronomic adventure.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation" id="contact">
+        <div class="section_container reservation_container">
+            <h3>Reservation</h3>
+            <h2 class="section_header">BOOK YOUR TABLE</h2>
+            <form action="/">
+                <input type="text" placeholder="NAME" />
+                <input type="email" placeholder="EMAIL" />
+                <input type="date" placeholder="DATE" />
+                <input type="time" placeholder="TIME" />
+                <input type="number" placeholder="PEOPLE" />
+                <button class="btn" type="submit">FIND TABLE</button>
+            </form>
+        </div>
+        <img src="assets/3.png" alt="reservation"
+        class="reservation_bg-1"
+        />
+        <img src="assets/3.png" alt="reservation"
+        class="reservation_bg-2"
+        />
+    </section>
+
+    <footer class="footer">
+        <div class="section_container footer_container">
+            <div class="footer_logo">
+                <img src="assets/logo.png" alt="logo" />
+            </div>
+            <div class="footer_content">
+                <p>Our story is one of dedication of crafting the perfect experince. 
+                    From sourcing the fine ingrediants to delivering unparalleled taste in every bite.
+                </p>
+                <div>
+                    <ul class="footer_links">
+                        <li>
+                            <span><i class="ri-map-pin-2-line"></i></span>
+                            KINGS ROAD, BRIKAMA, THE GAMBIA
+                        </li>
+                        <li>
+                            <span><i class="ri-mail-line"></i></span>
+                            j5jj5jgs8004rt@gmail.com
+                        </li>
+                    </ul>
+                    <div class="footer_socials">
+                        <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                        <a href="#"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bar">
+            <p>&copy; 2024 RESTAURANT WEBSITE. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
